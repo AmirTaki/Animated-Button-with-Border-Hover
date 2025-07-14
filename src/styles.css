@@ -10,6 +10,12 @@ body{
     place-items: center;
 }
 
-.btn{
-
+.btn a{
+    display: block;
+    height: 70px;
+    width:220px;
+    background: red;
+    text-align: center;
+    border-radius: 10px;
+    
 }
