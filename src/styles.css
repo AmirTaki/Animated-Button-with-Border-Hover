@@ -12,6 +12,7 @@ body{
 }
 
 .btn a{
+    position: relative;
     display: block;
     height: 70px;
     width:220px;
@@ -29,5 +30,7 @@ body{
     left:50%;
     top:50%;
     transform: translate(-50%, -50%);
-
+    border-radius: 10px;
+    line-height: 62px;
+    color:#fff
 }
