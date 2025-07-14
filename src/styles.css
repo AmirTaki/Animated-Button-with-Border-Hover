@@ -35,6 +35,12 @@ body{
     color:#f5f5f5;
     font-size: 25px;
 }
-.btn a span:hover {
+.btn a:hover {
     animation: animate .4s linear infinite;
+}
+
+@keyframes animate {
+    100%{
+        filter : hue-rotate(-360deg)
+    }
 }
